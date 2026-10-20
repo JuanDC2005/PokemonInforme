@@ -13,6 +13,9 @@ public class Pokemon {
     private Integer nivel;
     private Integer ps;
 
+    public Pokemon() {
+    }
+
     @Override
     public String toString() {
         return nombre;
